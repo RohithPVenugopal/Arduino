@@ -1,4 +1,4 @@
-int Sensor=2;
+int Sensor=2; //connection given to second pin
 void setup()
 {
 Serial.begin(9600);
