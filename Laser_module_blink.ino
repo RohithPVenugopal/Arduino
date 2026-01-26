@@ -1,4 +1,4 @@
-int laserPin = 13;
+int laserPin = 2;
 
 void setup() {
   pinMode(laserPin, OUTPUT);
@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
   digitalWrite(laserPin, HIGH); // Laser ON
-  delay(1000);
-  digitalWrite(laserPin, LOW);  // Laser OFF
-  delay(1000);
+  /*delay(1000);
+ digitalWrite(laserPin, LOW);  // Laser OFF
+ delay(1000); */
 }
